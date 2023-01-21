@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./imgs/background2.jpg');
+  background-size: cover;
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+#main-logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 1px goldenrod;
+}
+
+.navbar {
+  height: 7.5vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(0, 0, 0, 0.5);
+}
+
+.logo {
+  display: flex;
+  gap: 2vw;
+  align-items: center;
+  padding-left: 3vw;
+  font-size: 2rem;
+}
+
+div.logo :nth-child(1) {
+  font-family: 'Luxurious Script', cursive;
+  font-size: 2.5rem;
+  color: goldenrod;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 2vw;
+  padding-right: 3vw;
+  align-items: center;
+  font-size: 1.5rem;
+}
+
+li:hover {
+  color: goldenrod;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.main {
+  margin-top: 10vh;
+  width: 15vw;
+  height: 15vw;
+  border-radius: 50%;
+  border: solid 2px goldenrod;
+  background-color: rgba(95, 92, 92, 0.2);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.main :nth-child(1) {
+  font-size: 1.25rem;
+  color: goldenrod;
+}
+
+div.main :nth-child(2) {
+  font-size: 1.8rem;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+div.main :nth-child(3) {
+  font-style: italic;
+}
+
+.opening-hours {
+  margin-top: 7.5vh;
+  width: 25vw;
+  height: 10vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 2vw;
+  border: solid 2px goldenrod;
+  font-size: min(1rem, 3vw);
+}
+
+div.opening-hours :nth-child(1) {
+  font-size: min(1.25rem, 2vw);
+  font-weight: 600;
+}
+
+.menu {
+  display: flex;
+  gap: 15vw;
+  align-self: center;
+}
+
+.mainDish,
+.desserts {
+  margin-top: 10vh;
+  padding: 5vh;
+  height: 65vh;
+  width: 20vw;
+  background-color: rgba(0, 0, 0, 0.9);
+  border: solid 2px goldenrod;
+  border-radius: 2.5vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h2 {
+  color: goldenrod;
+}
+
+.about {
+  margin-top: 15vh;
+  margin-left: 10vw;
+  width: 60vw;
+  height: 40vh;
+  background-color: rgb(0, 0, 0, 0.5);
+  border: solid 2px goldenrod;
+  border-radius: 3vw;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+div.about :nth-child(1) {
+  font-size: 2rem;
+  font-weight: 600;
+  color: goldenrod;
+  border-bottom: solid 2px goldenrod;
+  align-self: flex-start;
+  margin-bottom: 5vh;
+}
+
+div.about :nth-child(2) {
+  font-style: italic;
+  font-size: 1.25rem;
+}
